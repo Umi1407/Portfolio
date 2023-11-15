@@ -173,6 +173,7 @@ button{
     transition: .2s;
     font-size: 1rem;
     font-family:'Playpen Sans', cursive;
+    color: black;
 }
 button:hover{
     cursor: pointer;
@@ -183,6 +184,7 @@ button:hover{
 .project-button{
     justify-self: center;
     background-color: rgb(255, 196, 0);
+    color: black
 }
 
 .project-button:hover{
