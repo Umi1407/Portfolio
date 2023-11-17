@@ -196,7 +196,9 @@ footer{
     color: white;
     text-align: center;
     padding-top: 20px;
+    padding-bottom: 20px;
 }
+
 .contact{
     text-align: center;
     display: inline-block;
@@ -205,14 +207,15 @@ footer{
     margin-bottom: 10px;
 }
 .contact i{
-    font-size: 20px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 15px;
 }
 footer .copy{
     position: absolute;
     bottom: 0;
     left: 0;
 }
-
 @media only screen and (max-width: 1400px){
     .grid-container{
         grid-template-columns: none;
