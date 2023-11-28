@@ -1,2 +1,8 @@
 # Portfolio
-Portfolio project which includes my other creations.   Uses grid and JavaScript interaction for showing more projects.  JavaScript for mobile nav on three horizontal bars.
+Portfolio project which includes info about me and showcase of my other projects. <br>
+This portfolio includes the following:
+  * Grids
+  * JavaScript interactive button to show more projects
+  * Responsive Design for mobile
+  * Interactive triple horizontal bars for mobile nav
+
