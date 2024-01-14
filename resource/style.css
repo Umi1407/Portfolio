@@ -82,6 +82,7 @@ nav a:hover:after{
 #myLinks a:hover{
     background-color: rgb(88, 88, 88);
 }
+
 .about{
     margin: 0 auto;
     max-width: 600px;
@@ -91,6 +92,14 @@ nav a:hover:after{
     margin-bottom: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.about img{
+    width: 200px;
+    height: 250px;
+    float: left;
+    border: 1px solid black;
+    border-radius: 2px;
+    margin: 10px;
 }
 .about *{
     font-family: 'Playpen Sans', cursive;
@@ -104,6 +113,7 @@ nav a:hover:after{
 }
 .about p{
     font-size: 25px;
+    text-align: justify;
 }
 .skills li{
     list-style-position:inside;
