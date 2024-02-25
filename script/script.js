@@ -2,8 +2,8 @@
 function showDisplay() {
     var gridElements = document.getElementsByClassName("grid-items2");
     var button = document.getElementById("button");
-    for (var x = 0; x < gridElements.length; x++){
-        if (gridElements[x].style.display === "block"){
+    for (var x = 0; x < gridElements.length; x++) {
+        if (gridElements[x].style.display === "block") {
             gridElements[x].style.display = "none";
             button.innerHTML = "See more";
         } else {

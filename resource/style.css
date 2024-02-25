@@ -5,7 +5,7 @@
     scroll-behavior: smooth;
 }
 body{
-    background-color: bisque;
+    background-color:  #e8f9fd;
 }
 
 hr{
@@ -14,9 +14,9 @@ hr{
 
 
 header{
-    background-color:  #0C6FF0;
+    background-color:  #59ce8f;
     margin: 0;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 18px;
     border-bottom: 2px solid black;
 }
@@ -31,7 +31,7 @@ header nav{
 }
 nav a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     font-weight: bold;
     font-size: 20px;
     margin-right: 65px;
@@ -55,7 +55,7 @@ nav a:hover:after{
 }
 .topnav{
     overflow: hidden;
-    background-color: #0C6FF0;
+    background-color: #59ce8f;
     position: relative;
     display: none;
  }
@@ -95,7 +95,7 @@ nav a:hover:after{
 }
 .about img{
     width: 200px;
-    height: 250px;
+    height: 230px;
     float: left;
     border: 1px solid black;
     border-radius: 2px;
