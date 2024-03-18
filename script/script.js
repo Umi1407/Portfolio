@@ -12,6 +12,7 @@ function showDisplay() {
         }
     }
 }
+
 function myFunction() {
     var x = document.getElementById("myLinks");
     if (x.style.display === "block") {
@@ -19,4 +20,15 @@ function myFunction() {
     } else {
         x.style.display = "block";
     }
-  }
+}
+
+const toggleLightButton = document.getElementById('toggleButton');
+
+
+toggleLightButton.addEventListener('click', () => {
+    document.body.classList.toggle('dark-mode');
+    document.querySelector("hr").classList.toggle('hrLine');
+    document.querySelector("header").classList.toggle('hrLine');
+});
+  
+

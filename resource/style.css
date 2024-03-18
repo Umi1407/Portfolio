@@ -1,24 +1,65 @@
+:root{
+    --clr-dark: #0b0d1a;
+    --clr-light: #f1f5f9;
+}
+
 *{
     font-family: 'Work Sans', sans-serif;
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }
+
+
+
+html{
+    height: 100%;
+}
 body{
-    background-color:  #e8f9fd;
+    height: 100%;
+    background-color: var(--clr-light);
+    color: var(--clr-dark);
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+.dark-mode{
+    background-color: var(--clr-dark);
+    color: var(--clr-light);
+}
+.hrLine{
+    border-color: white;
+    transition: border-color 0.5s ease, color 0.5s ease;
 }
 
+.svg{
+    margin-left: 20px;
+    position: relative;
+    top: 10px;
+}
+.lightToggle{
+    margin-left: 5px;
+    border: 1px solid black;
+    height: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.lightToggle:hover{
+    cursor:pointer;
+}
 hr{
     border: 1px solid black;
 }
 
 
 header{
-    background-color:  #59ce8f;
+    background-color:  #70bcfa;
     margin: 0;
     color: rgb(0, 0, 0);
     padding: 18px;
     border-bottom: 2px solid black;
+}
+
+header p{
+    display: inline-block;
 }
 header h1{
     position: relative;
@@ -55,7 +96,7 @@ nav a:hover:after{
 }
 .topnav{
     overflow: hidden;
-    background-color: #59ce8f;
+    background-color: #70bcfa;
     position: relative;
     display: none;
  }
@@ -86,8 +127,7 @@ nav a:hover:after{
 .about{
     margin: 0 auto;
     max-width: 600px;
-    border-right: 2px solid black;
-    border-left: 2px solid black;
+
     margin-top: 300px;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -153,8 +193,8 @@ nav a:hover:after{
     border-radius: 10px;
     border: 2px solid black;
     padding: 10px;
-    transition: 1s;
 }
+
 .grid-container .grid-items2 h2{
     color: white;
     font-family: 'Playpen Sans', cursive;
@@ -170,7 +210,8 @@ nav a:hover:after{
     border-radius: 10px;
 }
 
-button{
+
+.button1{
     margin-top: 25px;
     background-color: #0CBAF0;
     border: none;
@@ -185,20 +226,27 @@ button{
     font-family:'Playpen Sans', cursive;
     color: black;
 }
-button:hover{
+.button1:hover{
     cursor: pointer;
     transform: translate(2px, 2px);
     box-shadow: none;
     background-color: #85cfe4;
 }
+
 .project-button{
     justify-self: center;
     background-color: rgb(255, 196, 0);
-    color: black
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 40px;
+    margin-top: 10px;
+    font-weight: bold;
 }
 
 .project-button:hover{
     background-color: rgb(255, 228, 140);
+    cursor:pointer;
 }
 footer{
     position: relative;
