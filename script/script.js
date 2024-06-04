@@ -28,7 +28,6 @@ const toggleLightButton = document.getElementById('toggleButton');
 toggleLightButton.addEventListener('click', () => {
     document.body.classList.toggle('dark-mode');
     document.querySelector("hr").classList.toggle('hrLine');
-    document.querySelector("header").classList.toggle('hrLine');
 });
   
 
