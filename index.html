@@ -1,116 +1,193 @@
 <!DOCTYPE html>
 <html lang="en-us">
-    <head>
-        <title>Portfolio</title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="resource/style.css" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap" rel="stylesheet">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Work+Sans&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <script src="https://kit.fontawesome.com/ddf8de3d7c.js" crossorigin="anonymous"></script>
-
-    </head>
-    <body>
-        <header>
-            <h1 id="logo">My Portfolio</h1>
-            <nav>
-                <a href="#about">About</a>
-                <a href="#project-section">Projects</a>
-                <a href="#contact">Contact</a>
-            </nav>
-            <div class="topnav">
-                <h1>My Portfolio</h1>
-                <div id="myLinks">
-                  <a href="#about">About</a>
-                  <a href="#project-section">Projects</a>
-                  <a href="#contact">Contact</a>
-                </div>
-                <a href="javascript:void(0);" class="icon" id="icon" onclick="myFunction()">
-                  <i class="fa fa-bars"></i>
-                </a>
-              </div>
-        </header>
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" height="50px" class="svg">
-            <path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" />
-        </svg>
-        <button class="lightToggle" id="toggleButton">Toggle light/dark</button>
-        <main>
-            <div class="about" id="about">
-                <img src="resource/images/Myself.jpg">
-                <h1>About me</h1>
-                <p>Hi, My name is Umi and I am a front-end developer from the U.S</p>
-                <br>
-                <p>I am studying in college as a CS Major. I love learning about software development and have worked on some projects using mostly HTML and CSS, and a few with JavaScript.</p>
-                <br>
-                <p>I started learning to code in 2022 taking courses on CodeAcademy.</p>
-                <br>
-                <p>The things that I enjoy doing in my hobbies are working out, learning guitar, and also gaming.</p>
-                <br>
-                <p>After finishing college, I want gain experiences working for companies and grow to become an efficient developer</p>
-                <br>
-                <h2>My current skills</h2>
-                <ul class="skills">
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>React</li>
-                </ul>
-            </div>
-            <hr id = "hLine">
-            <div class ="projects" id="project-section">
-                <h1>Projects</h1>
-                <div class="grid-container" id="container">
-                    <div id="first-proj" class="grid-items">
-                        <img src="resource/Images/registerform.png" alt="Register form display">
-                        <h2>Register-Form-Display</h2>
-                        <a href="https://umi1407.github.io/Registration-Form-Display" target="_blank"><button class="button1">Visit</button></a>
-                    </div>
-                    <div id="second-proj" class="grid-items">
-                        <img src="resource/Images/productpreview.png" alt="project of product preview">
-                        <h2>Product-Preview</h2>
-                        <a href="https://umi1407.github.io/Product-Preview/" target="_blank"><button class="button1">Visit</button></a>
-                    </div>
-                    <div id="third-proj" class="grid-items">
-                        <img src="resource/Images/imaginarycompanylayout.png" alt="project of Imginary company layout">
-                        <h2>ImaginaryCompanyLayout</h2>
-                        <a href="https://umi1407.github.io/ImaginaryCompanyLayout/" target="_blank"><button class="button1"1>Visit</button></a>
-                    </div>
-                    <div id="fourth-proj" class="grid-items2">
-                        <img src="resource/Images/numberGuess.png" alt="Number guessing project">
-                        <h2>Number guess game</h2>
-                        <a href="https://umi1407.github.io/Number-Guessing/" target="_blank"><button class="button1">Visit</button></a>
-                    </div>
-                    <div id="fifth-proj" class="grid-items2">
-                        <img src="resource/Images/Cheatsheet.png" alt="image of cheatsheet project">
-                        <h2>Cheatsheet</h2>
-                        <a href="https://github.com/Umi1407/Cheatsheet-for-CSS-positioning" target="_blank"><button class="button1">Visit</button></a>
-                    </div>
-                    <div class="grid-items2">
-                        <img src="resource/images/jamming.png" alt="jamming app">
-                        <h2>React Jamming App</h2>
-                        <a href="https://github.com/Umi1407/React-Jamming-App" target="_blank"><button class="button1">Visit</button></a>
-                    </div>
-                </div>
-                <button id="button" class="project-button" onclick="showDisplay();">See more</button>
-            </div>
-        </main>
-        <footer>
-            <div class="contact" id="contact">
-                <h2 style="text-decoration: underline">Contact</h2>
-                <p>UmiSato42@gmail.com</p>
-                <br>
-                <a href="https://www.linkedin.com/in/umi-sato-77053b230/" target="_blank"><i class="fa-brands fa-linkedin" style="font-size:40px"6></i></a>
-                <br>
-                <a href="https://github.com/Umi1407"><i class="fa-brands fa-github"></i></a>
-            </div>
-            <p class="copy">Copyright &copy; 2023 Umi Sato</p>
-        </footer>
-        <script src="script/script.js"></script>
-    </body>
+  <head>
+    <title>Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="resource/style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playpen+Sans&family=Work+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/ddf8de3d7c.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <h1 id="logo">My Portfolio</h1>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#project-section">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="topnav">
+        <h1>My Portfolio</h1>
+        <div id="myLinks">
+          <a href="#about">About</a>
+          <a href="#project-section">Projects</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <a
+          href="javascript:void(0);"
+          class="icon"
+          id="icon"
+          onclick="myFunction()"
+        >
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+    </header>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="currentColor"
+      height="50px"
+      class="svg"
+    >
+      <path
+        d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z"
+      />
+    </svg>
+    <button class="lightToggle" id="toggleButton">Toggle light/dark</button>
+    <main>
+      <div class="about" id="about">
+        <img src="resource/Images/Myself.jpg" />
+        <h1>About me</h1>
+        <p>Hi, My name is Umi and I am a front-end developer from the U.S</p>
+        <br />
+        <p>
+          I am studying in college as a CS Major. I love learning about software
+          development and have worked on some projects using mostly HTML and
+          CSS, and a few with JavaScript.
+        </p>
+        <br />
+        <p>I started learning to code in 2022 taking courses on CodeAcademy.</p>
+        <br />
+        <p>
+          The things that I enjoy doing in my hobbies are working out, learning
+          guitar, and also gaming.
+        </p>
+        <br />
+        <p>
+          After finishing college, I want gain experiences working for companies
+          and grow to become an efficient developer
+        </p>
+        <br />
+        <h2>My current skills</h2>
+        <ul class="skills">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>JavaScript</li>
+          <li>Git</li>
+          <li>React</li>
+        </ul>
+      </div>
+      <hr id="hLine" />
+      <div class="projects" id="project-section">
+        <h1>Projects</h1>
+        <div class="grid-container" id="container">
+          <div id="first-proj" class="grid-items">
+            <img
+              src="resource/Images/registerform.png"
+              alt="Register form display"
+            />
+            <h2>Register-Form-Display</h2>
+            <a
+              href="https://umi1407.github.io/Registration-Form-Display"
+              target="_blank"
+              ><button class="button1">Visit</button></a
+            >
+          </div>
+          <div id="second-proj" class="grid-items">
+            <img
+              src="resource/Images/productpreview.png"
+              alt="project of product preview"
+            />
+            <h2>Product-Preview</h2>
+            <a href="https://umi1407.github.io/Product-Preview/" target="_blank"
+              ><button class="button1">Visit</button></a
+            >
+          </div>
+          <div id="third-proj" class="grid-items">
+            <img
+              src="resource/Images/imaginarycompanylayout.png"
+              alt="project of Imginary company layout"
+            />
+            <h2>ImaginaryCompanyLayout</h2>
+            <a
+              href="https://umi1407.github.io/ImaginaryCompanyLayout/"
+              target="_blank"
+              ><button class="button1" 1>Visit</button></a
+            >
+          </div>
+          <div id="fourth-proj" class="grid-items2">
+            <img
+              src="resource/Images/numberGuess.png"
+              alt="Number guessing project"
+            />
+            <h2>Number guess game</h2>
+            <a href="https://umi1407.github.io/Number-Guessing/" target="_blank"
+              ><button class="button1">Visit</button></a
+            >
+          </div>
+          <div id="fifth-proj" class="grid-items2">
+            <img
+              src="resource/Images/Cheatsheet.png"
+              alt="image of cheatsheet project"
+            />
+            <h2>Cheatsheet</h2>
+            <a
+              href="https://github.com/Umi1407/Cheatsheet-for-CSS-positioning"
+              target="_blank"
+              ><button class="button1">Visit</button></a
+            >
+          </div>
+          <div class="grid-items2">
+            <img src="resource/Images/jamming.png" alt="jamming app" />
+            <h2>React Jamming App</h2>
+            <a
+              href="https://github.com/Umi1407/React-Jamming-App"
+              target="_blank"
+              ><button class="button1">Visit</button></a
+            >
+          </div>
+        </div>
+        <button id="button" class="project-button" onclick="showDisplay();">
+          See more
+        </button>
+      </div>
+    </main>
+    <footer>
+      <div class="contact" id="contact">
+        <h2 style="text-decoration: underline">Contact</h2>
+        <p>UmiSato42@gmail.com</p>
+        <br />
+        <a
+          href="https://www.linkedin.com/in/umi-sato-77053b230/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin" style="font-size: 40px" 6></i
+        ></a>
+        <br />
+        <a href="https://github.com/Umi1407"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+      </div>
+      <p class="copy">Copyright &copy; 2023 Umi Sato</p>
+    </footer>
+    <script src="script/script.js"></script>
+  </body>
 </html>
